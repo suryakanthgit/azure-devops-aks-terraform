@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: health-dashboard
-        image: suryadevops.azurecr.io/health-dashboard:latest
+        image: suryadevopsacr.azurecr.io/health-dashboard:latest
         ports:
         - containerPort: 5000
         livenessProbe:
